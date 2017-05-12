@@ -1,0 +1,19 @@
+•	#searchLoader { border: 10px solid #0099e6; }
+•	#searchLoaderMessage { background: #0099e6; }
+•	“super packages” span tag… colour: #171717;
+•	#second span… color: #0099e6;
+•	#searchLoaderTextLine1 { color: #0099e6; }. Also reduce col-md-offset-* to 2 for “powered by ‘Booking.com’” section
+•	Remove loading icons
+•	Inserted Harrington div (begins at line 730 in my gvdev.html code) on right-side. Placed captions and the ‘powered by booking.com’ div beneath it. Moved the ‘testimonies’ div to left-side.
+•	Change img ref to ‘harri3.png’ image save directory. 
+•	Removed empty “row mb20” div that was in <!-- BOF Testimonials --> section
+•	Added div captions beneath Harrington picture with following rules; 	style=”font-weight: bolder; color: #0099e6; font-size: 20px; width: 340px !important; margin: 0 auto !important”;
+•	 Styled Harrington picture with following rules;
+     border: 2px solid whitesmoke; border-radius: 7px; box-shadow: 0px 0px 3px 5px rgba(240, 240, 240, 0.3);
+•	Added style=”line-height: 220%;” to captions on right-side
+•	Added style=”line-height: 140%;” to captions on left-side
+•	Kept spinner font awesome icon that follows ‘after [location]’  sentence on same line
+•	Can you look into removing the ‘dots’ pagination for the owl-carousel div? I hid it for demonstration purposes
+•	Added the following rules to booking.com <img> and ‘powered by’ span;
+For ‘powerd by’; “margin-bottom: -20px; position: relative; z-index: 1;
+For booking.com image: margin-top: -20px; width: 75% !important; margin: 0 auto;
